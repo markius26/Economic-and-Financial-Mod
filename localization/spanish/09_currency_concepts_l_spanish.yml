@@ -17,8 +17,7 @@
   #monetary_policy:0 "Monetary Policy"
 
  concept_money_value:0 "Money Value"
- concept_money_value_desc:0 " The [concept_money_value], is determined by the [concept_national_stockpile] divided by the total amount of currency produced and in circulation in your market ([concept_money_supply]). If national currency exit of your market, the value of the currency will increase; if national currency enter your market, the value of the currency will decrease. In the same way, if you increase the production of currency, it will decrease the monetary value, while decreasing the production will increase the monetary value."
-
+ concept_money_value_desc:0 " El [concept_money_value], está determinado por el [concept_national_stockpile] dividido por la cantidad total de moneda producida y en circulación en su mercado ([concept_money_supply]). Si la moneda nacional sale de su mercado, el valor de la moneda aumenta; si la moneda nacional ingresa a su mercado, el valor de la moneda disminuirá. De la misma manera, si aumenta la producción de moneda, disminuirá el valor monetario, mientras que disminuir la producción aumentará el valor monetario.
  concept_money_value_target_real:0 "Gold Parity" #je pense que c'est le money valu ciblé
  concept_money_value_target_real_desc:0 "The Gold Parity is the gold value that you desire your national currency to achieve."
 
@@ -29,55 +28,55 @@
  concept_money_supply_desc:0 "The Money Supply represents the total amount of the national currency present in your market."
 
  concept_money_value_target:0 "Gold Coverage Ratio"
-  concept_money_value_target_desc:0 "The gold coverage ratio represents the maximum value of the national currency that you can or must produce to achieve the [concept_money_value_target_real]. If your [concept_money_supply] exceeds your [concept_money_value_target], the monthly money supply will reset to 0, and you won't be able to store more currency. In addition, a penalty of -1% per month on monetary production will be applied to your central bank, up to a maximum of -50%. This penalty is applicable only if 'no monetary policy' and 'revaluation' are active; if you are in a 'devaluation policy', this limit will not be considered, and the currency value will tend toward 0. In general, this means that you desire to maintain the value of your currency at a level that is too high relative to what your market allows."
+  concept_money_value_target_desc:0 "El índice de cobertura de oro representa el valor máximo de la moneda nacional que puedes o debes producir para alcanzar el [concepto_valor_dinero_objetivo_real]. Si su [concept_money_supply] excede su [concept_money_value_target], la oferta monetaria mensual se restablecerá a 0 y no podrá almacenar más moneda. Además, se aplicará a su banco central una penalización del -1% mensual sobre la producción monetaria, hasta un máximo del -50%. Esta penalización es aplicable sólo si están activas la "no política monetaria" y la "revaluación"; si está en una 'política de devaluación', este límite no se considerará y el valor de la moneda tenderá a 0. En general, esto significa que desea mantener el valor de su moneda en un nivel demasiado alto en relación con lo que su mercado permite."
 
   concept_money_value_target_with_reference_currency_selection:0 "Parity with the Reference Currency"
   concept_money_value_target_with_reference_currency_selection_desc:0 "De Rien"
 
  concept_inflation_value:0 "Inflation Value"
- concept_inflation_value_desc:0 "Inflation/deflation is the result of several parameters: Annual natural inflation, Market price, Currency value, and Inflation arising from the production of your currency. You can influence inflation/deflation by acting on these different parameters."
+ concept_inflation_value_desc:0 "La inflación/deflación es el resultado de varios parámetros: inflación natural anual, precio de mercado, valor de la moneda e inflación que surge de la producción de su moneda. Puedes influir en la inflación/deflación actuando sobre estos diferentes parámetros."
 
  concept_national_capacity:0 "National Capacity"
- concept_national_capacity_desc:0 "The National Capacity represents the total amount of gold that the country possesses. It is determined by several factors: the [concept_gold_reserves], the [concept_central_bank_gold_reserves], and the [concept_gold_balance]."
+ concept_national_capacity_desc:0 "La Capacidad Nacional representa la cantidad total de oro que posee el país. Está determinado por varios factores: las [concept_gold_reserves], las [concept_central_bank_gold_reserves] y el [concept_gold_balance]."
 
  concept_devaluation:0 "Devaluation"
- concept_devaluation_desc:0 "In the 19th century, devaluation was generally understood as an economic action consisting of reducing the official value of a currency relative to a benchmark, such as another foreign currency or a monetary standard such as gold or silver. You can devalue your currency by 25%, 50%, 75%, or 100%. This means that you increase your current monetary production capacity by that percentage. At the same time, your monetary production inflation will increase by +1, +2, +3, or +4 in intervals of 6 months."
+ concept_devaluation_desc:0 "En el siglo XIX, la devaluación se entendía generalmente como una acción económica consistente en reducir el valor oficial de una moneda con respecto a un punto de referencia, como otra moneda extranjera o un patrón monetario como el oro o la plata. Puede devaluar su moneda en un 25%, 50%, 75% o 100%. Esto significa que aumentas tu capacidad de producción monetaria actual en ese porcentaje. Al mismo tiempo, la inflación de su producción monetaria aumentará en +1, +2, +3 o +4 en intervalos de 6 meses."
 
  concept_revaluation:0 "Revaluation"
- concept_revaluation_desc:0 "In the 19th century, revaluation was the economic action opposed to devaluation, and it consisted of increasing the official value of a currency relative to a reference, such as another foreign currency or a monetary standard such as gold or silver. You can revaluat your currency by 25%, 50%, 75%, or 100%. This means that you decrease your current monetary production capacity by that percentage. At the same time, your monetary production inflation will decrease by -1, -2, -3, or -4 in intervals of 6 months.""
+ concept_revaluation_desc:0 "En el siglo XIX, la revaluación era la acción económica opuesta a la devaluación, y consistía en aumentar el valor oficial de una moneda con respecto a una referencia, como otra moneda extranjera o un patrón monetario como el oro o la plata. Puede revaluar su moneda en un 25%, 50%, 75% o 100%. Esto significa que disminuyes tu capacidad de producción monetaria actual en ese porcentaje. Al mismo tiempo, la inflación de su producción monetaria disminuirá en -1, -2, -3 o -4 en intervalos de 6 meses.""
 
  concept_subject_currency_management:0 "Subject Currency Management"
  concept_subject_currency_management_desc:0 "Subject currency management allows the player to manage the parity between his currency and the currency of his subjects. By default the currency of the overlord is worth 2 that of the subjects."
 
  concept_parity:0 "Parity"
- concept_parity_desc:0 "In the 19th century, the term "parity" in monetary economics referred to the official or fixed ratio between two currencies or between a currency and a monetary standard such as gold or silver. Parity determined the relative value of one currency compared to another or compared to a common reference."
+ concept_parity_desc:0 "En el siglo XIX, el término "paridad" en economía monetaria se refería a la relación oficial o fija entre dos monedas o entre una moneda y un patrón monetario como el oro o la plata. La paridad determinaba el valor relativo de una moneda respecto de otra o respecto de una referencia común."
 
  concept_central_bank_gold_reserves:0 "Central Bank Gold Reserves"
- concept_central_bank_gold_reserves_desc:0 "Central Bank Gold Reserves are gold hold in your [concept_central_bank]. This gold is the main source of value for the country's currency. This gold is positioned in the state where your [concept_central_bank] is located, if this state is annexed by an enemy country, you lose this gold. This gold comes from the gold present in your market which is stocked every month, more gold you have in your market, more gold you accumulate in the Central Bank Gold Reserves. Subject countries cannot accumulate gold.
+ concept_central_bank_gold_reserves_desc:0 "Las reservas de oro del Banco Central son reservas de oro en su [concept_central_bank]. Este oro es la principal fuente de valor de la moneda del país. Este oro se coloca en el estado donde se encuentra su [concept_central_bank], si este estado es anexado por un país enemigo, usted pierde este oro. Este oro proviene del oro presente en su mercado que se almacena cada mes, más oro tiene en su mercado, más oro acumula en las Reservas de Oro del Banco Central. Los países sujetos no pueden acumular oro.
 
  concept_gold_balance:0 "Foreign trade Gold Balance"
- concept_gold_balance_desc:0 "Foreign trade gold balance refers to the situation where a country maintains a balanced balance in its trade with other nations, in terms of net inflows and outflows of gold. In a context where a country was on a gold standard or where the currency was backed by gold, this trade balance was crucial to maintaining the stability of its currency and its gold reserves."
+ concept_gold_balance_desc:0 "La balanza de oro del comercio exterior se refiere a la situación en la que un país mantiene una balanza equilibrada en su comercio con otras naciones, en términos de entradas y salidas netas de oro. En un contexto en el que un país aplicaba el patrón oro o en el que la moneda estaba respaldada por oro, esta balanza comercial era crucial para mantener la estabilidad de su moneda y sus reservas de oro."
 
  concept_import_value:0 "Import Cost (in Gold)"
- concept_import_value_desc:0 "The cost of import (in gold) is the totality of what you buy on the foreign market. You pay for these goods in gold and not with a national currency (the modern notion of purchasing foreign goods in national currency dates from the 1970s and the end of the Bretton Woods system)."
+ concept_import_value_desc:0 "El costo de importación (en oro) es la totalidad de lo que se compra en el mercado extranjero. Estos bienes se pagan en oro y no con moneda nacional (la noción moderna de comprar bienes extranjeros en moneda nacional data de la década de 1970 y del fin del sistema de Bretton Woods)."
 
  concept_export_value:0 "Export Profit (in Gold)"
- concept_export_value_desc:0 "Export Profit (in gold) is the totality of what you sell in the foreign market. You sell these goods in gold and not with a national currency (the modern notion of selling foreign goods in national currency dates from the 1970s and the end of the Bretton Woods system).
+ concept_export_value_desc:0 "El beneficio de exportación (en oro) es la totalidad de lo que vendes en el mercado exterior. Estos bienes se venden en oro y no en moneda nacional (la noción moderna de vender bienes extranjeros en moneda nacional data de la década de 1970 y del fin del sistema de Bretton Woods).
 
  concept_world_currency:0 "World Curency"
- concept_world_currency_desc:0 "The World Currency list allows you to see where your national currency is located in relation to the other world currency."
+ concept_world_currency_desc:0 "La lista de Monedas Mundiales le permite ver dónde se encuentra su moneda nacional en relación con la otra moneda mundial."
 
  concept_evolution_of_the_currency_value:0 "Evolution of the currency value"
  concept_evolution_of_the_currency_value_desc:0 "The Evolution of the currency value list, allows you to see the evolution of the value of the world currencies over 1 year, 5 years and 10 years. (The values may appear to be buggy but it takes 5 years and 10 years of play for set the values correctly)
 
  concept_exchange_rate:0 "Exchange Rate"
- concept_exchange_rate_desc:0 "In the 19th century, exchange rates between currencies were generally determined by a fixed exchange rate system based on the gold standard. This meant that the value of national currencies was fixed in relation to a specific quantity of gold. Governments often priced their national currencies in gold, thereby ensuring its convertibility."
+ concept_exchange_rate_desc:0 "En el siglo XIX, los tipos de cambio entre monedas generalmente se determinaban mediante un sistema de tipo de cambio fijo basado en el patrón oro. Esto significaba que el valor de las monedas nacionales se fijaba en relación con una cantidad específica de oro. Los gobiernos a menudo fijaban el precio de sus monedas nacionales en oro, asegurando así su convertibilidad."
 
  concept_money_value_rapported_inflation:0 "Money Value Rapported Inflation"
- concept_money_value_rapported_inflation_desc:0 "Money Value Reported to Inflation is the value of your currency increasing or decreasing due to your inflation/deflation. It is a crucial factor in determining the value of your currency for exchange rates."
+ concept_money_value_rapported_inflation_desc:0 "El valor del dinero reportado a la inflación es el valor de su moneda que aumenta o disminuye debido a su inflación/deflación. Es un factor crucial para determinar el valor de su moneda para los tipos de cambio."
 
 concept_international_economic_power:0 "International Economic Power"
-concept_international_economic_power_desc:0 "The International Economic Power is determined by the country possessing the greatest national capacity. This means that it is the currency with the largest counterpart, making it extremely solid in global markets. This value can be modified based on the country that possesses the greatest national capacity. (It's up to you to play!)"
+concept_international_economic_power_desc:0 "La Potencia Económica Internacional está determinada por el país que posee mayor capacidad nacional. Esto significa que es la moneda con mayor contraparte, lo que la hace extremadamente sólida en los mercados globales. Este valor puede modificarse en función del país que posea mayor capacidad nacional. (¡Depende de ti jugar!)"
 
 concept_monetary_policy:0 "Monetary Policy"
 concept_monetary_policy_desc:0 "The Monetary Policy is the primary mean that allows you to manage your inflation/deflation. It also enables you to increase or decrease your [concept_money_supply], which will influence the [concept_money_value] your currency. It is the principal mean of achieving your [concept_money_value_target]."
