@@ -3,13 +3,13 @@
 #BUILDING
 
  concept_central_bank:0 "Central Bank"
- concept_central_bank_desc:0 "In the 19th century, a [concept_central_bank] was generally defined as a economic institution with the primary role of issuing the national currency, regulating the [concept_money_supply], overseeing the financial system, and maintaining economic stability. [concept_central_bank] of the 19th century were often established in response to the need for a central issuer of currency capable of controlling the [concept_money_supply] and stabilizing the economic system."
+ concept_central_bank_desc:0 "En el siglo XIX, un [concept_central_bank] se definía generalmente como una institución económica con la función principal de emitir la moneda nacional, regular el [concept_money_supply], supervisar el sistema financiero y mantener la estabilidad económica. Los [concept_central_bank] del siglo XIX se establecieron a menudo en respuesta a la necesidad de un emisor central de moneda capaz de controlar el [concept_money_supply] y estabilizar el sistema económico."
 
  concept_financial_centre:0 "Financial Centre"
- concept_financial_centre_desc:0 "In the 19th century, a [concept_financial_centre] was an economically significant region, where banking, financial and commercial activities were concentrated. These [concept_financial_centre] were often hubs for banking institutions, financial markets, corporations, and other business players."
+ concept_financial_centre_desc:0 "En el siglo XIX, un [concept_financial_center] era una región económicamente importante, donde se concentraban actividades bancarias, financieras y comerciales. Estos [concept_financial_centre] eran a menudo centros para instituciones bancarias, mercados financieros, corporaciones y otros actores comerciales."
 
  concept_national_stockpile:0 "National Stockpile"
- concept_national_stockpile_desc:0 "A "stockpile" is a substantial reserve or accumulation of something, typically goods, commodities, or resources, stored in anticipation of future needs or to address emergency situations. It can also refer to a large quantity of something that is amassed over a period of time."
+ concept_national_stockpile_desc:0 "Una "reserva" es una reserva o acumulación sustancial de algo, generalmente bienes, materias primas o recursos, almacenado en previsión de necesidades futuras o para hacer frente a situaciones de emergencia. También puede referirse a una gran cantidad de algo que se acumula durante un período de tiempo."
 
 #ECONOMY
 
